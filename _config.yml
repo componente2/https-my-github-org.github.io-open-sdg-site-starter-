@@ -12,26 +12,26 @@
 # Replace this title as needed.
 title: Indicadores para las Metas del Desarrollo Sostenible
 # Replace the baseurl with the name of this repository.
-baseurl: "/open-sdg-site-starter"
+baseurl: "frankcarrascoza/open-sdg-site-starter"
 url: ""
 data_dir: data
 environment: staging
 # Replace my-github-org and open-sdg-data-starter as needed.
-remotedatabaseurl: "https://frankcarrascoza.github.io/open-sdg-data-starter"
+remotedatabaseurl: "https://componente2.github.io/open-sdg-data-starter"
 
 jekyll_get_json:
   - data: meta
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://frankcarrascoza.github.io/open-sdg-data-starter/meta/all.json'
+    json: 'https://componente2.github.io/open-sdg-data-starter/meta/all.json'
   - data: headlines
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://frankcarrascoza.github.io/open-sdg-data-starter/headline/all.json'
+    json: 'https://componente2.github.io/open-sdg-data-starter/headline/all.json'
   - data: schema
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://frankcarrascoza.github.io/open-sdg-data-starter/meta/schema.json'
+    json: 'https://componente2.github.io/open-sdg-data-starter/meta/schema.json'
   - data: reporting
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://frankcarrascoza.github.io/open-sdg-data-starter/stats/reporting.json'
+    json: 'https://componente2.github.io/open-sdg-data-starter/stats/reporting.json'
   - data: translations
     json: 'https://open-sdg.github.io/sdg-translations/translations-0.5.2.json'
 
