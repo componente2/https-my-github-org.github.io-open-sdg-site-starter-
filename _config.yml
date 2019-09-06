@@ -17,21 +17,21 @@ url: ""
 data_dir: data
 environment: staging
 # Replace my-github-org and open-sdg-data-starter as needed.
-remotedatabaseurl: "https://github.com/frankcarrascoza.github.io/open-sdg-data-starter"
+remotedatabaseurl: "https://frankcarrascoza.github.io/open-sdg-data-starter"
 
 jekyll_get_json:
   - data: meta
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://github.com/frankcarrascoza.github.io/open-sdg-data-starter/meta/all.json'
+    json: 'https://frankcarrascoza.github.io/open-sdg-data-starter/meta/all.json'
   - data: headlines
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://github.com/frankcarrascoza.github.io/open-sdg-data-starter/headline/all.json'
+    json: 'https://frankcarrascoza.github.io/open-sdg-data-starter/headline/all.json'
   - data: schema
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://github.com/frankcarrascoza.github.io/open-sdg-data-starter/meta/schema.json'
+    json: 'https://frankcarrascoza.github.io/open-sdg-data-starter/meta/schema.json'
   - data: reporting
     # Replace my-github-org and open-sdg-data-starter as needed.
-    json: 'https://github.com/frankcarrascoza.github.io/open-sdg-data-starter/stats/reporting.json'
+    json: 'https://frankcarrascoza.github.io/open-sdg-data-starter/stats/reporting.json'
   - data: translations
     json: 'https://open-sdg.github.io/sdg-translations/translations-0.5.2.json'
 
@@ -39,23 +39,23 @@ analytics:
   ga_prod: ''
 
 # Social media accounts.
-twitter: 'MyTwitterAccount'
+twitter: 'frankcarrascoza'
 
 # Sticky share buttons (facebook, twitter and email)
 #sharethis_property: '5d279253faeee40012f195e1'
 
 # Replace the email addresses below.
 email_contacts:
-  questions: frank_carrascoza@hotmail.com
-  suggestions: frank_carrascoza@hotmail.com
-  functional: frank_carrascoza@hotmail.com
+  questions: test@example.com
+  suggestions: test@example.com
+  functional: test@example.com
 
 # Github Repo for Data
 # Replace this value as needed.
 repo_name: open-sdg-data-starter
 branch: develop
 # Replace this value as needed.
-org_name: GIZ-SEGEPLAN
+org_name: frankcarrascoza
 
 # Build settings
 markdown: kramdown
@@ -67,11 +67,11 @@ exclude: [vendor, scripts, remotedata]
 # Eg name: Australia and adjective: Australian
 country:
   name: Guatemala
-  adjective: Guatemalteco
+  adjective: Guatemalan
 
 # Optionally uncomment and update the settings below to control the frontpage heading and instructions.
-frontpage_heading: Datos de Guatemala para los indicadores del Desarrollo Sostenible 
-frontpage_instructions: Click en cada meta, o <span id="jump-to-search"><a>search</a></span>, para estadísticas guatemaltecas del desarrollo sostenible.
+frontpage_heading: Australian data for Sustainable Development Goal indicators
+frontpage_instructions: Click on each goal, or <span id="jump-to-search"><a>search</a></span>, for Australian statistics for Sustainable Development Goal global indicators.
 
 # Pages
 collections:
@@ -105,7 +105,7 @@ non_global_metadata: indicator.national_metadata
 
 # The list of languages that are translated. The first one is the default.
 languages:
-  - es
+  - en
 
 # This makes sure that all pages have a language.
 defaults:
@@ -113,7 +113,7 @@ defaults:
     scope:
       path: ""
     values:
-      language: "es"
+      language: "en"
 
 # Set a base for all goal image URLs. Note that the full goal image path will be
 # the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
